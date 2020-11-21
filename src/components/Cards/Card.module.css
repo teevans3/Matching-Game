@@ -1,0 +1,122 @@
+.easyCardContainer {
+  box-sizing: border-box;
+  width: 25%;
+  height: 160px;
+  padding: 6px;
+}
+.mediumCardContainer {
+  box-sizing: border-box;
+  width: 16.66%;
+  height: 107px;
+  padding: 2px;
+}
+.hardCardContainer {
+  box-sizing: border-box;
+  width: 12.5%;
+  height: 80px;
+  padding: 2px;
+}
+/* card background from https://www.123freevectors.com/cool-purple-polygonal-background-design-image-131172/*/
+.Card {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/131172-cool-purple-polygonal-background-design-image.jpg?w=800&q=95");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.Visible {
+  background-image: none;
+  border: none;
+}
+
+.easyCardImage {
+  height: 140px;
+  width: 140px;
+}
+.mediumCardImage {
+  height: 107px;
+  width: 107px;
+}
+
+.hardCardImage {
+  height: 80px;
+  width: 80px;
+}
+
+/* technically a hidden card, because once matched, it disappears*/
+.Matched {
+  background-color: white;
+  border: none;
+}
+
+@media (max-width: 750px) {
+  .mediumCardImage {
+    height: 80%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .mediumCardImage {
+    height: 70px;
+    width: 70px;
+    padding-top: 15px;
+  }
+  .hardCardImage {
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .easyCardImage {
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+  }
+  .mediumCardImage {
+    height: 60px;
+    width: 60px;
+    padding-top: 20px;
+  }
+  .hardCardImage {
+    height: 50px;
+    width: 50px;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .mediumCardImage {
+    height: 50px;
+    width: 50px;
+    padding-top: 25px;
+  }
+  .hardCardImage {
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .easyCardImage {
+    height: 50%;
+    width: 100%;
+    padding-top: 35px;
+  }
+  .mediumCardImage {
+    height: 50%;
+    width: 100%;
+    padding-top: 25px;
+  }
+  .hardCardImage {
+    height: 50%;
+    width: 100%;
+    padding-top: 25px;
+  }
+}

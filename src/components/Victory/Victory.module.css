@@ -1,0 +1,12 @@
+.PlayAgain {
+  background-color: #3d0574;
+  border: none;
+  height: 36px;
+  width: 112px;
+  background-color: #3d0574;
+  border-radius: 2px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 12px;
+}
